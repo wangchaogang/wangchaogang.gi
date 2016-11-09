@@ -36,3 +36,9 @@ nav li:hover{
 	background:#FFFFFF;
 	opacity: 0.5;
 }
+#text div{
+	width:100px;
+	height:100px;
+	background:red;
+	position:absolute;
+}
