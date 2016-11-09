@@ -4,8 +4,9 @@
 	list-style: none;
 }
 body{
-	background:#000000 ;
+	background: url(http://img.bianceng.com/uploads/allimg/1111/230K32D5-3.jpg) no-repeat left top;
     opacity: 0.8;
+    background-size: 100% 100%;
 }
 nav{
 	height:45px; 
@@ -16,7 +17,22 @@ nav{
 }
 nav li{
 	float: left;
-	width:80px;
+	width:10%;
 	text-align: center;
-	color: #0000000;
+	color: #000000;
+	font-weight: bold;
+}
+nav li:hover{
+	color: #FFFFFF;
+	background:#000000;
+}
+#text{
+	/*color:#FFFFFF;*/
+	padding-left: 10%;
+    line-height: 45px;
+	margin: 10px auto;
+	font-weight: bold;
+	width:80%;
+	background:#FFFFFF;
+	opacity: 0.5;
 }
