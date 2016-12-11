@@ -154,7 +154,7 @@ nav>a{
 	height:100%;
 }
 #mytext{
-	width:65%;
+	width:75%;
 	/*height:400px;*/
 	background:#DDE9F9;
 	margin: 30px auto;
@@ -163,13 +163,17 @@ nav>a{
 #mytext h2{
 	text-align: center;
 	padding-top:35px;
+	/*display: inline-block;*/
+	width: 100%;
 }
 #mytext h6{
 	text-align: center;
+	/*display: inline-block;*/
+	width: 100%;
+	
 }
 #mytext>div{
 	width:100%;
-	     
 	text-align: center;
 }
 #mytext>div:nth-of-type(1){
@@ -218,10 +222,15 @@ nav>a{
  margin: 0 auto;
  padding:0 5%;
 }*/
+#xinxi ul{
+	width: 100%;
+	
+}
 #xinxi li{
 	height: 30px;
 	line-height: 30px;
-
+	width: 100%;
+  
 }
 #nenegli{
 	text-align: center;
