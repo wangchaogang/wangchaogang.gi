@@ -248,7 +248,7 @@ nav>a{
 	width:150px;
 	height:150px;
 	border-radius: 50%;
-	animation: dong 160s ;
+	animation: dong 160s ease;
 }
 @keyframes dong{
 	from{transform: rotate(0);}
