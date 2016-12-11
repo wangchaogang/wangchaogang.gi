@@ -244,3 +244,17 @@ nav>a{
 	background:url(../img/botter.jpg) no-repeat left top;
 	background-size: 100% 100%;
 }
+.mytu{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	animation: dong 160s ;
+}
+@keyframes dong{
+	from{transform: rotate(0);}
+	to{transform: rotate(15480deg);}
+}
+.mytu:hover{
+	animation-play-state:paused;
+  transform: rotate(0);
+}
